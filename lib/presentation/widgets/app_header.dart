@@ -14,10 +14,14 @@ class ResponsiveAppBar extends StatelessWidget implements PreferredSizeWidget {
       title: Row(
         children: const [
           Icon(Icons.local_shipping, color: AppTheme.secondaryColor, size: 32),
-          SizedBox(width: 10),
+          SizedBox(width: 11),
           Text(
             'CHOWRA LOGISTICS',
-            style: TextStyle(fontWeight: FontWeight.bold, letterSpacing: 1.5, color: Colors.white),
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              letterSpacing: 1.5,
+              color: Colors.white,
+            ),
           ),
         ],
       ),
@@ -28,18 +32,21 @@ class ResponsiveAppBar extends StatelessWidget implements PreferredSizeWidget {
               _navItem('Tracking'),
               _navItem('Network'),
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 16.0,
+                  vertical: 8.0,
+                ),
                 child: ElevatedButton(
                   onPressed: () {},
                   child: const Text('Get a Quote'),
                 ),
-              )
+              ),
             ]
           : [
               IconButton(
                 icon: const Icon(Icons.menu, color: Colors.white),
                 onPressed: () {},
-              )
+              ),
             ],
     );
   }
@@ -50,7 +57,10 @@ class ResponsiveAppBar extends StatelessWidget implements PreferredSizeWidget {
       child: Center(
         child: Text(
           title,
-          style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w500),
+          style: const TextStyle(
+            color: Colors.white,
+            fontWeight: FontWeight.w500,
+          ),
         ),
       ),
     );
