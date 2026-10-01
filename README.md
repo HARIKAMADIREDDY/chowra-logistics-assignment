@@ -36,3 +36,12 @@ The codebase is structured using a simplified Clean Architecture approach to ens
 2. Clone this repository:
    ```bash
    git clone https://github.com/YourUsername/chowra-logistics.git
+   <img width="1680" height="1050" alt="Image" src="https://github.com/user-attachments/assets/387247ce-ae05-4bc7-a041-c2453232d8d1" />
+
+<img width="1680" height="1050" alt="Image" src="https://github.com/user-attachments/assets/bf6c6fa1-ac47-4903-8534-452f9302483b" />
+
+<img width="1680" height="1050" alt="Image" src="https://github.com/user-attachments/assets/69ff22a7-a204-4f6e-abbe-f7d4d120f6cd" />
+
+<img width="1680" height="1050" alt="Image" src="https://github.com/user-attachments/assets/b96caf42-7289-41c8-9678-9f7fef451a49" />
+
+<img width="1680" height="1050" alt="Image" src="https://github.com/user-attachments/assets/15151800-e3f5-4c50-a85a-47eeaf9d3ffd" />
